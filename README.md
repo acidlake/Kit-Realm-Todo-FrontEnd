@@ -1,7 +1,7 @@
 # SvelteKit Realm Integration
 
 # Url
-- Demo: [https://crm-v2-curbo.netlify.app/](https://crm-v2-curbo.netlify.app/)
+- Demo: [https://kit-todo-realm.netlify.app](https://kit-todo-realm.netlify.app)
 
 # Project Features
 - Sentry for Bug Tracking
