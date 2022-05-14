@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"types": ["cypress", "@testing-library/cypress"],
+		"paths": {
+			"$lib": ["src/lib"],
+			"$lib/*": ["src/lib/*"],
+			"$components": ["src/lib/shared/components"],
+			"$components/*": ["src/lib/shared/components/*"],
+			"$ui": ["src/lib/shared/ui"],
+			"$ui/*": ["src/lib/shared/ui/*"],
+			"$store": ["src/lib/core/stores"],
+			"$store/*": ["src/lib/core/stores/*"],
+			"$core": ["src/lib/core"],
+			"$core/*": ["src/lib/core/*"],
+			"$constants": ["src/lib/core/constants"],
+			"$constants/*": ["src/lib/core/constants/*"],
+			"$graphql": ["src/lib/core/graphql"],
+			"$grapqhl/*": ["src/lib/core/graphql/*"],
+			"$environment": ["src/lib/environments"],
+			"$data": ["src/lib/data"],
+			"$utils": ["src/lib/utils"]
+		}
+	},
+	"include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte", "src/service-worker.js-"]
+}
